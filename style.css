@@ -1,0 +1,58 @@
+/* Example styling of a h1 element */
+h1 {
+  color: #000000;
+  font-family: "Roboto_slab";
+  font-weight: 400;
+  font-size: 40px;
+  position: relative;
+  left: 20px;
+}
+
+@font-face {
+  font-family: "Roboto_slab";
+  src: url("RobotoSlab-VariableFont_wght.ttf");
+}
+
+h2 {
+  color: #ffffff;
+  font-family: "Roboto_slab";
+  font-weight: 350;
+  font-size: 20px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: rgb(255, 192, 203);
+}
+
+.infobox {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  min-height: 281px;
+  margin: 10px;
+  width: 200px;
+  float: left;
+  border-radius: 10px;
+  font-family: arial, san-serif;
+}
+
+.grey {
+  background-color: rgb(165, 165, 165);
+}
+
+.lightgrey {
+  background-color: lightgray;
+}
+
+.darkgrey {
+  background-color: rgb(121, 121, 121);
+}
